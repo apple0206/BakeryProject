@@ -4,17 +4,22 @@
     padding: 0;
 }
 
+body {
+    font: 14px/24px 'Taipei Sans TC Beta', 'sans-serif';
+}
+
+/* 設為首頁、收藏本站、日期、溫度的位置 */
 .wp {
     width: 960px;
-    margin0: 0 auto;
+    margin: 0 auto;
 }
 
 /* top欄浮動左右內容 */
-.z {
+.L {
     float: left;
 }
 
-.y {
+.R {
     float: right;
 }
 
@@ -24,6 +29,10 @@
 
 .mr_0 {
     margin: 0;
+}
+
+img {
+    border: none;
 }
 
 /* top欄樣式 */
@@ -53,14 +62,21 @@
     color: #7E3505;
 }
 
+/* Logo */
+.logos {
+    height: 80px;
+    margin: 10px;
+}
+
 /* 搜索 */
 .search {
     width: 500px;
-    height: 40px;
+    height: 50px;
+    margin-top: 10px;
 }
 
 .search td {
-    height: 40px
+    height: 50px
 }
 
 .searchL {
@@ -69,11 +85,51 @@
 }
 
 .searchC {
-    width: 240px;
+    width: 200px;
     background: url("../images/searchC.jpg") repeat-x;
 }
 
 .searchR {
-    width: 150px;
+    width: 144px;
     background: url("../images/searchR.jpg") no-repeat;
+}
+
+.searchC input {
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    margin-top: 2px
+}
+
+.searchR button {
+    width: 144px;
+    height: 35px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* 導航 */
+.nav {
+    height: 35px;
+    width: 100%;
+    background-color: #31609b;
+}
+
+.nav li {
+    list-style: none;
+    line-height: 35px;
+    padding: 0 10px;
+}
+
+.nav li.a {
+    background-color: #2E769B;
+}
+
+.nav a {
+    color: #fff;
+    font-size: 16px;
+    float: left;
+    text-decoration: none;
 }
