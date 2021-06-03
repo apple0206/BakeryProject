@@ -309,7 +309,7 @@ a.top {
     height: 40px;
     line-height: 9999px;
     overflow: hidden;
-    background: url(../images/blueArrow.jpg) no-repeat;
+    background: url(../images/blueArrow.png) no-repeat;
 }
 
 a.facebook {
@@ -318,7 +318,7 @@ a.facebook {
     height: 40px;
     line-height: 9999px;
     overflow: hidden;
-    background: url(../images/facebook.jpg) no-repeat;
+    background: url(../images/facebook.png) no-repeat;
 }
 
 a.instagram {
@@ -327,7 +327,7 @@ a.instagram {
     height: 40px;
     line-height: 9999px;
     overflow: hidden;
-    background: url(../images/instagram.jpg) no-repeat;
+    background: url(../images/instagram.png) no-repeat;
 }
 
 a.youtube {
@@ -336,5 +336,5 @@ a.youtube {
     height: 40px;
     line-height: 9999px;
     overflow: hidden;
-    background: url(../images/youtube.jpg) no-repeat;
+    background: url(../images/youtube.png) no-repeat;
 }
