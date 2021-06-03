@@ -137,6 +137,204 @@ img {
 
 /* banner */
 .banner img {
-    width: 800px;
+    width: 700px;
     height: 400px;
+}
+
+/* center */
+.banner {
+    margin-bottom: 10px;
+}
+
+.title {
+    padding-bottom: 0px;
+    border-bottom: 2px solid #113285;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.title span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.title a {
+    color: #113285;
+    text-decoration: none;
+}
+
+.introduction {
+    width: 500px;
+    height: 250px;
+    margin-right: 20px;
+}
+
+.introContent img {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.introContent p {
+    color: #302919;
+    text-indent: 24px
+}
+
+/* 獲獎紀錄 */
+.award {
+    width: 400px;
+    height: 320px;
+}
+
+.awardContent {}
+
+.awardContent li {
+    list-style: none;
+    height: 20px;
+    line-height: 20px;
+    font-size: 10px;
+    position: relative;
+    padding-left: 15px;
+    background: url("../images/icon-award.png") no-repeat center left;
+    margin-bottom: 6px;
+}
+
+.awardContent li.a {
+    background: none;
+    padding: 0;
+    height: 90px;
+}
+
+.awardContent li img {
+    float: left;
+    margin: 0 10px 0 0px;
+}
+
+.award span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 12px;
+    color: #888
+}
+
+.award h3 {
+    font-weight: normal;
+    font-size: 10px;
+}
+
+.awardContent a {
+    color: #302919;
+    text-decoration: none;
+}
+
+.awardContent p {
+    font-size: 14px;
+    color: #DB4D6D;
+    text-indent: 24px;
+}
+
+/* 熱銷產品推薦 */
+.product {
+    width: 100%;
+    height: 300px;
+}
+
+.productContent li {
+    float: left;
+    list-style: none;
+    margin: 0 10px 10px 0;
+    width: 150px;
+    height: 95px;
+    overflow: hidden;
+    position: relative;
+}
+
+.productContent span {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 14px;
+    height: 20px;
+    width: 130px;
+    padding: 0 10px;
+    background: #FFCD25;
+    color: #3D5A53;
+    overflow: hidden;
+}
+
+.productContent li a:hover span {
+    display: block;
+
+}
+
+.productContent li img {
+    float: left;
+}
+
+/* footer */
+.footer {
+    height: 100px;
+    background: #98caec;
+}
+
+.footer_top {
+    height: 80px;
+    line-height: 80px;
+    background: #98caec;
+    color: brown;
+}
+
+.footer_top.L {
+    font-size: 16px;
+}
+
+.footer_top a {
+    color: brown;
+    text-decoration: none;
+}
+
+/* media */
+.media {
+    position: fixed;
+    bottom: 150px;
+    right: 60px;
+    list-style: none;
+}
+
+a.top {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 9999px;
+    overflow: hidden;
+    background: url(../images/blueArrow.jpg) no-repeat;
+}
+
+a.facebook {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 9999px;
+    overflow: hidden;
+    background: url(../images/facebook.jpg) no-repeat;
+}
+
+a.instagram {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 9999px;
+    overflow: hidden;
+    background: url(../images/instagram.jpg) no-repeat;
+}
+
+a.youtube {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 9999px;
+    overflow: hidden;
+    background: url(../images/youtube.jpg) no-repeat;
 }
